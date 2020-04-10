@@ -1,0 +1,858 @@
+/*CSS global*/
+	
+body{
+	margin: 0;
+}
+
+#content{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+/*CSS bloc gauche*/
+.bloc-gauche{
+	width: 35%;
+	background-color: #45FBD3;	
+}
+
+/*CSS menu navigation au-dessus de la photo*/
+.nav{
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+/*CSS marge à droite pour les icônes du menu nav*/
+.ic{
+	margin-right: 10px;
+}
+
+/*CSS couleur pour les mots accueil et galerie*/
+.navi{
+	color: #434952; 
+}
+
+/* CSS de la photo de profil*/
+
+.photo-ronde{	/*encadrement en cercle de la photo*/
+	overflow: hidden;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	border: 2px solid #434952;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+ }
+
+/*propriétés pour que la photo rentre dans l'encadrement en cercle*/
+.photo{ 
+	width: inherit;
+	height: inherit;
+	border-radius: inherit;
+	object-fit: cover;
+	object-position: top center;
+
+}
+
+.nom-queries {
+	display: none;
+}
+
+.job-queries{
+	display: none;
+}
+
+
+
+/* CSS des titres encadrés en gris et texte en blanc*/
+.perso{
+	color: white ;
+	border: 2px solid #434952;
+	background-color: #434952;
+	text-align: center;
+	font-family: 'Black Ops One', cursive;
+	font-size: 25px;
+}
+
+/* CSS du texte sous l'encadré "contact" pour les coordonnées*/
+.texte-perso{
+	padding: 40px;
+	word-wrap: break-word;
+}
+
+/* CSS du texte sous l'encadré "à propos de moi" pour descriptif de moi-même*/
+.texte-perso1{
+	padding: 40px;
+	text-align: justify;
+	
+}
+
+
+/* CSS pour que l'adresse mail se coupe lorsqu'on rétrécit l'écran, éviter le débordement en dehors de la colonne attitré*/
+.email{
+	word-wrap: break-word;
+}
+
+/*CSS de la partie "loisirs" pour créer la section qui contient les 3 icônes encerclés*/
+.icones{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 40px;
+}
+
+/*CSS de la partie "loisirs" pour encercler les icônes*/
+.loisir{
+	font-size: 20px;
+	border-radius: 50%;
+	border: 2px solid #434952;
+	padding: 20px;	
+}
+
+
+
+/* CSS pour la partie principale MAIN de droite afin de mettre espacement 50px de chaque côté*/
+.bloc-droite{
+	padding: 50px;
+	
+
+}
+
+/* CSS pour la mise en forme de mon nom en entier "Lucie Venard"*/
+.nom{
+	font-family: 'Monoton', cursive;
+	font-size: 60px;
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+/* CSS pour changer la couleur uniquement de mon prénom "lucie"*/
+.lucie{
+	color: #45FBD3;
+	
+}
+
+/* CSS pour changer la police et la taille du titre du job dév web junior*/
+.job{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 40px;
+	
+}
+
+/* CSS pour la police, la taille et l'emplacement des titres de la partie principale de droite formation, exp pro et reco */
+.titre-exp{
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	margin-top: 70px;
+}
+
+
+
+
+/* CSS de toutes les autres lignes horizontales qui servent à séparer les parties formation/exp pro/reco, https://css-tricks.com/examples/hrs/ */
+.hr{
+	border: 0;
+    height: 4px;
+    background: #45FBD3;
+	margin-top: -30px;
+	width: auto;
+ 	
+}
+
+/* CSS mettre en forme la partie formation, dates et lieu à gauche + école, formation et descriptif à droite*/
+.encart-exp{
+	display: flex;
+	flex-direction: row;
+	flex-direction: space-between;
+
+	
+}
+
+/* CSS mettre en forme taille et couleur de l'icône des dates*/
+.point{
+	font-size: 20px;
+	color: #45FBD3;	
+}
+
+
+/* CSS pour ajuster l'emplacement à gauche de la partie dates + lieu */
+.date-lieu{
+	
+	width: 180px;
+	margin-right: 30px;
+}
+
+/* CSS pour ajuster l'emplacement à droite de la partie école */
+.ecole{
+	width: 600px;
+	
+	
+}
+
+/* CSS pour ajuster l'emplacement à droite de la partie école */
+.descriptif-exp{
+	width: 600px;
+	height: 200px;
+
+}
+
+/* CSS pour ajuster l'emplacement à droite de la partie pro */
+.descriptif-exp1{
+	width: 600px;
+	height: 220px;
+
+}
+
+/* CSS pour réduire la taille des titres H2 car choix pour référencement mais visuellement pas esthétique car trop grand par rapport au titre au dessus */
+h2{
+	font-size: 17px;
+}
+
+/* CSS pour mettre en forme la partie galerie infographisme*/
+
+.galerie{
+	background-color: #45FBD3;
+	
+}
+
+.titre-galerie{
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	color: #434952;
+	text-align: center;
+	padding: 30px;
+}
+
+/* CSS de la bannière*/
+
+.banniere{	/*encadrement de la bannière sac à main*/
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3%;
+	border: 2px solid #434952;
+	width: 550px;
+	height: 250px;
+	box-shadow: 0px 4px 4px #1c1a19;
+ }
+
+ .ban{ 
+	width: inherit;
+	height: inherit;
+	border-radius: inherit;
+	object-fit: cover;
+}
+
+.banniere1{	/*encadrement de la bannière doudounes*/
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0 0 10% 10%;
+	border: 2px solid #434952;
+	width: 800px;
+	height: 230px;
+	box-shadow: 0px 4px 4px #1c1a19;
+ }
+/*propriétés pour que la créa rentre dans l'encadrement de la bannière*/
+.ban1{ 
+	width: inherit;
+	height: inherit;
+}
+
+.banniere2{	/*encadrement de la bannière bijoux et vintage*/
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1%;
+	border: 2px solid #434952;
+	width: 800px;
+	height: 230px;
+	box-shadow: 0px 4px 4px #1c1a19;
+ }
+
+ .banniere3{	/*encadrement de la bannière viggo*/
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1%;
+	border: 2px solid #434952;
+	width: 200px;
+	height: 240px;
+	box-shadow: 0px 4px 4px #1c1a19;
+ }
+
+ .banniere4{	/*encadrement de la bannière*/
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1%;
+	border: 2px solid #434952;
+	width: 240px;
+	height: 240px;
+	box-shadow: 0px 4px 4px #1c1a19;
+ }
+
+.banniere5{	/*encadrement de la bannière*/
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1%;
+	border: 2px solid #434952;
+	width: 380px;
+	height: 240px;
+	box-shadow: 0px 4px 4px #1c1a19;
+ }
+
+ .papa_viggo{
+ 	display: flex;
+ 	flex-direction: row;
+
+ }
+
+
+
+
+
+footer{
+	float: center;
+	text-align: center;
+	
+}
+
+/* CSS appliqué aux écrans laptop en-dessous de 1024px*/
+@media screen and  (max-width: 1024px) {
+   
+   
+   #content {
+      display: flex;
+      flex-direction: column;
+     
+    }
+
+    .bloc-gauche{
+    	width: 100%;
+    	
+    }
+
+    .navi{
+    	font-size: 30px;
+    }
+
+	.ic{
+		font-size: 30px;
+	}
+
+    .photo-ronde{
+    	text-align: center;
+    }
+
+    .nom{
+    	display: none;
+    }
+
+    .nom-queries{
+		display: block;
+		font-family: 'Monoton', cursive;
+		font-size: 50px;
+		text-align: center;
+
+	}
+
+	.job{
+		display: none;
+	}
+
+	.job-queries{
+		display: block;	
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 40px;
+		text-align: center;
+		margin-top: -60px;
+		margin-bottom: 60px;
+
+	}
+
+	
+
+	.lucie-mobile{
+		color: white;
+
+	}
+
+	.perso{
+		
+	font-size: 35px;
+}
+
+
+	.texte-perso1{
+	font-size: 25px;
+	padding: 40px;
+		
+}
+
+    .texte-perso{
+    	text-align: center;
+    	font-size: 25px;
+    }
+
+    .icones{
+    	justify-content: space-around;
+    }
+    
+
+   .hr{
+   	width: 100%;
+   }
+
+   
+
+   .encart-exp{
+		display: flex;
+		flex-direction: column;
+	
+	}
+
+	
+
+	.date-lieu{
+		width: auto;
+		font-size: 25px;
+		text-align: center;
+		padding: 10px;
+		margin-top: 10px;
+		
+	}
+
+	.ecole{
+		font-size: 25px;
+		padding-bottom: 20px;
+		width: auto;
+		
+	}
+
+	h2{
+		font-size: 25px;
+	}
+
+
+	.descriptif-exp{
+		width: auto;
+		height: auto;
+		padding-bottom: 20px;
+		font-size: 25px;
+				
+	}
+	
+	.descriptif-exp1{
+		width: auto;
+		height: auto;
+		padding-bottom: 20px;
+		font-size: 25px;
+				
+	}
+
+	.descriptif-exp2{
+		width: auto;
+		height: auto;
+		padding-bottom: 20px;
+		font-size: 25px;
+				
+	}
+
+	.titre-exp{
+		font-size: 30px;
+
+	}
+
+.papa_viggo{
+	padding: 50px;
+}
+	
+
+}
+ 
+ /* CSS appliqué aux écrans tablet en-dessous de 768px*/
+@media screen and  (max-width: 768px) {
+   
+   
+
+   #content {
+      display: flex;
+      flex-direction: column;
+       
+    }
+
+    .bloc-gauche{
+    	width: 100%;
+    	
+    }
+
+    .photo-ronde{
+    	text-align: center;
+    }
+
+    .nom{
+    	display: none;
+    }
+
+    .nom-queries{
+		display: block;
+		font-family: 'Monoton', cursive;
+		font-size: 50px;
+		text-align: center;
+
+	}
+
+	.job{
+		display: none;
+	}
+
+	.job-queries{
+		display: block;	
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 40px;
+		text-align: center;
+		margin-top: -60px;
+		margin-bottom: 60px;
+
+	}
+
+	
+
+	.lucie-mobile{
+		color: white;
+
+	}
+
+	.perso{
+		
+		font-size: 35px;
+	}
+
+
+	.texte-perso1{
+	font-size: 20px;
+	padding: 40px;
+	}
+
+    .texte-perso{
+    	text-align: center;
+    	font-size: 20px;
+    }
+
+    .icones{
+    	justify-content: space-around;
+    }
+    
+
+   .hr{
+   	width: 100%;
+   }
+
+   
+
+   .encart-exp{
+		display: flex;
+		flex-direction: column;
+	}
+
+	
+
+	.date-lieu{
+		width: auto;
+		font-size: 20px;
+		text-align: center;
+		padding: 10px;
+		margin-top: 10px;
+	}
+
+	.ecole{
+		font-size: 20px;
+		padding-bottom: 20px;
+		width: auto;
+	}
+
+	h2{
+		font-size: 20px;
+	}
+
+
+	.descriptif-exp{
+		width: auto;
+		height: auto;
+		padding-bottom: 20px;
+		font-size: 20px;
+	}
+	
+	.descriptif-exp1{
+		width: auto;
+		height: auto;
+		padding-bottom: 20px;
+		font-size: 20px;
+	}
+
+	.descriptif-exp2{
+		width: auto;
+		height: auto;
+		padding-bottom: 20px;
+		font-size: 20px;
+	}
+
+	.papa_viggo{
+
+		padding: 30px;
+	}
+
+	
+	.banniere1{
+		height: 200px;
+		width: 700px;
+	}
+
+
+	.banniere2{
+		height: 200px;
+		width: 700px;
+	}
+
+	.banniere3{
+		height: 200px;
+		width: 160px;
+	}
+
+	.banniere4{
+		height: 200px;
+		width: 200px;
+	}
+
+	.banniere5{
+		height: 200px;
+		width: 300px;
+	}
+}
+
+/* CSS appliqué aux écrans smartphone entre 425px et 320px*/
+@media screen and (min-width: 320px) and (max-width: 425px) {
+   
+   
+
+   #content {
+      display: flex;
+      flex-direction: column;
+      width: 470px; /*format adapté pour écran de 320px*/
+    }
+
+    .bloc-gauche{
+    	width: 100%;
+    	
+    }
+
+    .navi{
+    	font-size: 25px;
+    }
+
+	.ic{
+		font-size: 25px;
+	}
+
+    .photo-ronde{
+    	text-align: center;
+    }
+
+    .nom{
+    	display: none;
+    }
+
+    .nom-queries{
+		display: block;
+		font-family: 'Monoton', cursive;
+		font-size: 45px;
+		text-align: center;
+
+	}
+
+	.job{
+		display: none;
+	}
+
+	.job-queries{
+		display: block;	
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 30px;
+		text-align: center;
+		margin-top: -60px;
+		margin-bottom: 60px;
+
+	}
+
+	
+
+	.lucie-mobile{
+		color: white;
+
+	}
+
+	.perso{
+		
+	font-size: 35px;
+}
+
+
+	.texte-perso1{
+	font-size: 25px;
+	padding: 40px;
+		
+}
+
+    .texte-perso{
+    	text-align: center;
+    	font-size: 25px;
+    }
+
+    .icones{
+    	justify-content: space-around;
+    }
+    
+
+   .hr{
+   	width: 100%;
+   }
+
+   
+
+   .encart-exp{
+		display: flex;
+		flex-direction: column;
+	
+	}
+
+	
+
+	.date-lieu{
+		width: auto;
+		font-size: 20px;
+		text-align: center;
+		padding: 10px;
+		margin-top: 10px;
+		
+		
+	}
+
+	.ecole{
+		font-size: 20px;
+		padding-bottom: 20px;
+		width: auto;
+		
+	}
+
+	h2{
+		font-size: 20px;
+	}
+
+
+	.descriptif-exp{
+		width: auto;
+		height: auto;
+		padding-bottom: 20px;
+		font-size: 20px;
+		
+		
+	}
+	
+	
+	.descriptif-exp1{
+		width: auto;
+		height: auto;
+		padding-bottom: 20px;
+		font-size: 20px;
+		
+		
+	}
+
+	.descriptif-exp2{
+		width: auto;
+		height: auto;
+		padding-bottom: 20px;
+		font-size: 20px;
+		
+		
+	}
+	.encart-reco{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.reco{
+		width: 470px;
+		height: auto;
+		font-size: 15px;
+		padding-right: 30px;
+	}
+
+	.galerie{
+		width: 500px;
+	}
+
+	.banniere{
+		width: 480px;
+		height: 200px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.banniere1{
+		width: 480px;
+		height: 150px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.banniere2{
+		width: 480px;
+		height: 150px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.banniere3{
+		width: 100px;
+		height: 130px;
+	}
+
+	.banniere4{
+		width: 130px;
+		height: 130px;
+	}
+
+	.banniere5{
+		width: 200px;
+		height: 130px;
+	}
+
+	.titre-galerie{
+		font-size: 30px;
+		text-align: center;
+	}
+
+
+
+}	

@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+	<!-- partie HEAD avec codage universel informatique utf-8, lien vers CSS, différentes polices de texte, icônes et le titre de l'onglet-->
+   	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" /> <!--mettre yes = autorisation du zoom pour l'utilisateur donc meilleure ergonomie et accessibilité de la page-->
+		<script src="https://kit.fontawesome.com/e2e6b41211.js" crossorigin="anonymous"></script>  <!--lien pour intégrer icônes fontawesome-->
+		<link rel="stylesheet" type="text/css" href="C:\Users\Lucie\Documents\GitHub\style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Courgette|Gloria+Hallelujah|Lobster|Fredoka+One|Titan+One|Press+Start+2P|Monoton|&display=swap" rel="stylesheet"/> 
+		<!-- lien récupérer sur le site https://fonts.google.com pour intégrer des polices d'écriture originales (plusieurs polices en 1 seul lien, chaque police séparée par "|" et se termine par &display=swap-->
+		<title>Lucie Venard | CV Communication | Toulouse 31, Castres, Carcassonne</title> <!-- 70 caractères max-->
+		
+		
+	</head>
+
+	<body>
+		<section id="content"> <!-- partie SECTION comme cadre principal de tout le CV-->
+			<header class="bloc-gauche"> <!--HEADER pour toute la partie gauche de mon CV avec photo de profil, coordonnées, à propos de moi et loisirs-->
+
+					<nav class="nav">
+						<a href="index.html" class="navi"><span class="ic"><i class="fas fa-home"></i></span>Accueil</a>
+						<a href="galerie.html" class="navi"><span class="ic"><i class="fas fa-image"></i></span>Galerie infographisme</a>
+					</nav>
+				
+   					<p class="photo-ronde"><img class="photo" src="photo_portrait_cv.png" alt="photo identité CV"/></p> <!-- emplacement de ma PHOTO de profil-->
+   				
+				<h3 class="nom-queries"> <span class="lucie-mobile">Lucie</span> &nbsp;&nbsp;&nbsp;&nbsp;Venard </h3> <!--nom qui apparait seulement en version mobile avec media queries-->
+
+				<h1><span class="job-queries">Chargée de communication</br>Infographiste</br>Webdesigner</span></h1> <!--job qui apparait seulement avec media queries-->
+
+				
+
+					<h3 class="perso">CONTACT</h3>
+						<div class="texte-perso"> <!-- partie DIV pour les coordonnées-->
+							<p><b> Adresse</b> <br>Toulouse</p>
+							<p><b> Téléphone / Whatsapp</b> <br> 07 85 35 56 29</p>
+							<p class="email"><b> Email</b> <br> l.venard.villegas@gmail.com</p>
+							<p><b> Site web</b> <br>
+							<a href="https://myluciole.github.io/CV" target="_blank">
+						https://myluciole.github.io/CV_Lucie_Venard</a> </p>
+							<p><b> Skype</b> <br> myluciole2 </p>
+						</div><!-- FIN de la partie DIV pour les coordonnées-->
+
+					<h3 class="perso">A PROPOS DE MOI</h3>
+						<div class="texte-perso1"> <!-- partie DIV pour la partie à propos de moi-->
+							<p>Passionnée par la communication à 360°, je me documente régulièrement en faisant une veille technologique afin de parfaire mes connaissances et être au courant des dernières actualités. </p> <p>Trilingue, polyvalente et autodidacte, j'ai également le sens de la créativité et du résultat afin d'atteindre au mieux les objectifs fixés.</p>
+							<p>Suite à ma formation Openclassrooms afin de valider mes acquis, je recherche un poste en CDI dans une agence de communication (ou gérer le site internet d'une même entreprise) afin de m'épanouir professionnellement. Je souhaiterai mettre à votre service mes compétences pour les missions suivantes :</p>
+							<ol>
+							<li>Conception de site internet (HTML5 et CSS3, icônes Fontawesome, Wordpress) </li>
+							<li>Infographisme (logo, bannières, créas print & web)</li>
+							<li>Référencement naturel (SEO)</li>
+							<li>Création de contenus avec rigueur (souci de l'orthographe et de la grammaire)</li>
+							<li>Utilisation de Git et Github pour travailler en équipe</li>
+							<li>Création de vidéos (montage, texte, son, effets)</li>
+							<li>Animation de réseaux sociaux (Youtube, Instagram, Linkedin, Facebook, Twitter)</li>
+							</ol>
+							<p>Mon CV en ligne est un aperçu de mon savoir-faire dans le domaine du web concernant la maîtrise des langages HTML5 et CSS3 ainsi que côté créas/infographisme.</p>
+							<p>Je suis disponible immédiatement et mobile géographiquement. </p>
+							<p>N'hésitez pas à me contacter pour en savoir plus sur mon profil, me faire part de vos attentes et échanger sur votre proposition d'emploi.</p>
+						</div>	<!-- FIN de la partie DIV pour la partie à propos de moi-->
+
+					<h3 class="perso">LOISIRS</h3> <!-- partie Loisirs avec les icônes-->
+						<div class="icones">
+							<p class="loisir"><i class="fas fa-hamburger"></i></p>
+							<p class="loisir"><i class="fas fa-bicycle"></i></p>
+							<p class="loisir"><i class="fas fa-film"></i></p>
+						</div>
+							<!-- FIN de la partie Loisirs avec les icônes-->
+						
+			</header> <!--fin de la partie HEADER, colonne gauche de mon CV-->
+
+			<main class="bloc-droite"> <!-- DEBUT de la partie MAIN concernant la partie principale à droite du CV: formation/exp pro/reco-->
+
+				<h3 class="nom"> <span class="lucie">Lucie</span> &nbsp;&nbsp;&nbsp;&nbsp;Venard </h3> <!-- 1er élément de MAIN = mon nom complet-->
+				
+				<h1><span class="job">Chargée de communication </br> Webdesigner & Infographiste</span></h1> <!-- 2ème élément de MAIN = le titre de mon métier -->
+
+						
+
+				<h3 class="titre-exp"><i class="fas fa-graduation-cap"></i> &nbsp;  Formation</h3> <!--1er titre qui annonce la partie FORMATION-->
+
+						<hr class="hr"> <!-- HR = ligne horizontale pour distinguer la partie formation-->
+
+						<section class="encart-exp"> <!-- DEBUT #1 section dédiée à la formation-->
+							<div class="date-lieu"> <!-- #1 bloc de gauche avec dates et lieu -->
+								<p><span class="point"><i class="far fa-dot-circle"></i></span>&nbsp; 2020 </br> A distance</p>
+							</div> <!-- Fin du #1 bloc de gauche avec dates et lieu-->
+
+							<div class="ecole"> <!-- #1 bloc de droite avec école, formation et descriptif -->
+								<h3>OPENCLASSROOMS </h3>
+								<h2>Prep'Web</h2>
+								<p>Conception de sites internet (HTML5, CSS3, Git et Github, optimisation du référencement naturel). </p>
+							</div> <!-- Fin #1 bloc de droite avec école, formation et descriptif -->
+						</section> <!-- FIN #1 section encart-formation-->
+
+						<section class="encart-exp"> <!-- DEBUT #2 section dédiée à la formation-->
+							<div class="date-lieu"> <!-- #2 bloc de gauche avec dates et lieu -->
+								<p><span class="point"><i class="fas fa-circle"></i></span>&nbsp; 2010 </br> Paris, 75</p>
+							</div> <!-- Fin du #2 bloc de gauche avec dates et lieu-->
+
+							<div class="ecole"> <!-- #2 bloc de droite avec école, formation et descriptif -->
+								<h3>ISTEC BUSINESS SCHOOL</h3>
+								<h2>Master 2 Marketing Opérationnel et Digital</h2>
+								<p>Etudier les stratégies marketing pour mettre en place une communication qui amènera du résultat afin d'augmenter le flux de clients et les ventes de l'entreprise. </p>
+							</div> <!-- Fin #2 bloc de droite avec école, formation et descriptif -->
+						</section> <!-- FIN #2 section encart-formation-->
+
+
+						<section class="encart-exp"> <!-- DEBUT #3 section dédiée à la formation-->
+								<div class="date-lieu">
+									<!-- #3 bloc de gauche avec dates et lieu -->
+									<p><span class="point"><i class="fas fa-circle"></i></span>&nbsp;2005-2007</br>Melun, 77</p>
+								</div><!-- Fin du #3 bloc de gauche avec dates et lieu-->
+
+								<div class="ecole"><!-- #3 bloc de droite avec école, formation et descriptif -->
+									<h3>LYCEE LEONARD DE VINCI</h3>
+									<h2>BTS Management des Unités Commerciales</h2>
+									<p>Enseignement sur les différents postes qui structurent une entreprise (gestion, compta, RH, marketing, communication,...). </p>
+								</div><!-- Fin #3 bloc de droite avec école, formation et descriptif -->
+						</section><!-- FIN #3 section encart-formation-->
+
+						<section class="encart-exp"> <!-- DEBUT #4 section dédiée à la formation-->
+							<div class="date-lieu"><!-- #4 bloc de gauche avec dates et lieu -->
+								<p><span class="point"><i class="fas fa-circle"></i></span> &nbsp; 2001-2004 </br> Palaiseau, 91</p>
+							</div><!-- Fin du #4 bloc de gauche avec dates et lieu-->
+
+							<div class="ecole"> <!-- #4 bloc de droite avec école, formation et descriptif -->
+								<h3>CAMILLE CLAUDEL</h3>
+									<h2>Baccalauréat Economique et Social</h2>
+									<p>Diplôme d'enseignement général avec un apprentissage varié qui comprend de nombreuses matières.</p>
+							</div><!-- Fin #4 bloc de droite avec école, formation et descriptif -->
+						</section> <!-- FIN #4 section encart-formation-->
+
+							<h3 class="titre-exp"><i class="fas fa-briefcase"></i> &nbsp;  Expérience Professionnelle</h3> <!--2ème titre qui annonce la partie Exp Pro-->
+
+								<hr class="hr"><!--HR = ligne horizontale pour distinguer la partie exp pro-->
+
+						<section class="encart-exp"> <!-- DEBUT #1 section dédiée à l'expérience pro-->
+							<div class="date-lieu"><!-- #1 bloc de gauche avec dates et lieu -->
+								<p><span class="point"><i class="far fa-dot-circle"></i></span> &nbsp; Fev 2019 - Fev 2020 </br> Evry, 91</p>
+							</div><!-- Fin du #1 bloc de gauche avec dates et lieu-->
+
+							<div class="descriptif-exp1"> <!-- #1 bloc de droite avec entreprise, métier et descriptif -->
+								<h3>COMMUNIKEY</h3>
+									<h2>Chargée de communication digitale</h2>
+										<ul>
+											<li>Référencement Web / SEO pour un portefeuille de 87 clients</li>
+											<li>Mise à jour de leur site internet (photos, bannières & vidéos, création de visuels, soldes,
+											articles de blog, contenus, produits e-commerce...)</li>
+											<li>Animation des réseaux sociaux de certains clients</li>
+											<li>Point mensuel téléphonique avec les clients : recommandations, compte-rendu des données
+											de Google Analytics, Search Console et Rank Tracker</li>
+										</ul>
+							</div><!-- Fin #1 bloc de droite avec entreprise, métier et descriptif -->
+						</section> <!-- FIN #1 section encart-formation-->
+
+						<section class="encart-exp"> <!-- DEBUT #2 section dédiée à l'expérience pro-->
+							<div class="date-lieu"><!-- #2 bloc de gauche avec dates et lieu -->
+								<p><span class="point"><i class="fas fa-circle"></i></span> &nbsp; Sept 2016 - Janv 2019</br> St Fargeau Ponthierry, 77</p>
+							</div><!-- Fin du #2 bloc de gauche avec dates et lieu-->
+
+							<div class="descriptif-exp1"> <!-- #2 bloc de droite avec entreprise, métier et descriptif -->
+								<h3>TOYS'R'US</h3>
+									<h2>Chargée des animations</h2>
+										<ul>
+											
+											<li>Mise en place des événements dans les 54 magasins de France dont gestion du planning</li>
+											<li>Rédaction et partage du compte-rendu de chaque opération/animation mise en place (photos, chiffre des ventes, points d'améliorations)</li>
+											<li>Communication à 360° des animations (Facebook, flyer, catalogue TRU, réseaux sociaux des partenaires fournisseurs, site web...)</li>
+										</ul>
+							</div><!-- Fin #2 bloc de droite avec entreprise, métier et descriptif -->
+						</section> <!-- FIN #2 section encart-formation-->
+
+						<section class="encart-exp"> <!-- DEBUT #3 section dédiée à l'expérience pro-->
+							<div class="date-lieu"><!-- #3 bloc de gauche avec dates et lieu -->
+								<p><span class="point"><i class="fas fa-circle"></i></span> &nbsp; Fev 2015 - Juil 2016</br>Champs-sur-Marne, 77</p>
+							</div><!-- Fin du #3 bloc de gauche avec dates et lieu-->
+
+							<div class="descriptif-exp"> <!-- #3 bloc de droite avec entreprise, métier et descriptif -->
+								<h3>C.S.D</h3>
+									<h2>Chef de produits allume-feux</h2>
+										<ul>
+											<li>Proposer des modèles de merchandising pour les GMS</li>
+											<li>Sourcing Europe et Chine (recherche de nouveaux produits et fournisseurs)</li>
+											<li> Répondre aux appels d'offre</li>
+											<li>Réapprovisionner le stock et achats des packagings</li>
+											<li>Gestion de la production, en passant par les audits usine et analyse des échantillons</li>
+										</ul>
+							</div><!-- Fin #3 bloc de droite avec entreprise, métier et descriptif -->
+						</section> <!-- FIN #3 section encart-formation-->
+
+						<section class="encart-exp"> <!-- DEBUT #4 section dédiée à l'expérience pro-->
+							<div class="date-lieu"><!-- #4 bloc de gauche avec dates et lieu -->
+								<p><span class="point"><i class="fas fa-circle"></i></span> &nbsp; Mai 2013 - Nov 2014</br>Granada, Espagne</p>
+							</div><!-- Fin du #4 bloc de gauche avec dates et lieu-->
+
+							<div class="descriptif-exp2"> <!-- #4 bloc de droite avec entreprise, métier et descriptif -->
+								<h3>MOBISIM</h3>
+									<h2>Infographiste / Webdesigner</h2>
+										<ul>
+											<li>Créas pour tout support de communication (print and web)</li>
+											<li> Mise à jour du site internet et des contenus avec optimisation SEO</li>
+										</ul>
+							</div><!-- Fin #4 bloc de droite avec entreprise, métier et descriptif -->
+						</section> <!-- FIN #4 section encart-formation-->
+
+						<section class="encart-exp"> <!-- DEBUT #5 section dédiée à l'expérience pro-->
+							<div class="date-lieu"><!-- #5 bloc de gauche avec dates et lieu -->
+								<p><span class="point"><i class="fas fa-circle"></i></span> &nbsp; Dec 2010 - Mars 2013</br>London, UK</p>
+							</div><!-- Fin du #5 bloc de gauche avec dates et lieu-->
+
+							<div class="descriptif-exp"> <!-- #5 bloc de droite avec entreprise, métier et descriptif -->
+								<h3>SILHOUETTE</h3>
+									<h2>Assistante marketing et communication</h2>
+										<ul>
+											<li>Organisation d'événements</li>
+											<li>Gestion des publications dans la trade press (magazines spécialisés pour opticiens)</li>
+											<li>Echanges avec les commerciaux pour étudier les remontées d'information terrain</li>
+											<li>Facturation des événements</li>
+											<li>Elaboration de tableaux de bord et analyse des ventes (top 10, worst 10, best sellers)</li>
+										</ul>
+							</div><!-- Fin #5 bloc de droite avec entreprise, métier et descriptif -->
+						</section> <!-- FIN #5 section encart-formation-->
+		
+					
+							
+				
+			</main><!-- FIN de la partie MAIN concernant la partie principale à droite du CV: formation/exp pro/reco-->
+	
+	</body>
+
+</html>
